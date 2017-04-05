@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body,html{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: #333;
+}
+.content{
+    width: 1020px;
+    height: 100%;
+    margin: 0 auto;
+    background: #999;
+}
+#logo{
+    float: left;
+    height: 100%;
+    /*background: red;*/
+    /*display: block;*/
+}
+#logo img{
+    width: 90px;
+}
+#menu{
+    height: 100%;
+    float: right;
+}
+#menu li{
+    float: left;
+}
+#menu li a{}
