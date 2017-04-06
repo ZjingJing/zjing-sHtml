@@ -11,6 +11,9 @@ a{
 body,html{
     width: 100%;
 }
+
+/*header*/
+
 header{
     width: 100%;
     height: 100px;
@@ -25,11 +28,9 @@ header{
 #logo{
     float: left;
     height: 100%;
-    /*background: red;*/
-    /*display: block;*/
 }
 #logo img{
-    width: 90px;
+    height: 100%;
 }
 #menu{
     height: 100%;
@@ -37,5 +38,13 @@ header{
 }
 #menu li{
     float: left;
+    background: #000;
+    margin: 0 10px;
 }
-#menu li a{}
+#menu li a{
+    height: 30px;
+    width: 75px;
+    line-height: 100px;
+    background: #fff;
+    overflow: hidden;
+}
