@@ -36,15 +36,25 @@ header{
     height: 100%;
     float: right;
 }
+#menu ul{
+    overflow: hidden;
+}
 #menu li{
+    height: 50px;
+    width: 110px;
     float: left;
     background: #000;
-    margin: 0 10px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 50px;
 }
+
+
+
+
 #menu li a{
-    height: 30px;
-    width: 75px;
-    line-height: 100px;
-    background: #fff;
-    overflow: hidden;
+    color: #fff;
+    /*line-height: 100px;*/
+    /*background: #fff;*/
+    /*overflow: hidden;*/
 }
