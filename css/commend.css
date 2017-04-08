@@ -17,56 +17,97 @@ body,html{
 header{
     width: 100%;
     height: 100px;
-    background: #333;
+    background: rgba(0,0,0,0.2);
+    /*position: fixed;*/
 }
-.content{
+.container{
     width: 1020px;
     height: 100%;
     margin: 0 auto;
-    background: #999;
+    /*background: #999;*/
 }
 #logo{
     float: left;
     height: 100%;
 }
 #logo img{
-    height: 100%;
+    height: 50px;
+    margin: 25px;
 }
 #menu{
     height: 100%;
     float: right;
 }
-#menu ul{
-    overflow: hidden;
-}
+/*#menu >  ul{*/
+    /*!*overflow: hidden;*!*/
+    /*display: block;*/
+/*}*/
 #menu li{
-    width: 110px;
-    height: 50px;
-    float: left;
-    background: #000;
+    float: right;
     margin-left: 20px;
-    line-height: 50px;
     margin-top: 25px;
-    text-align: center;
-    border-radius: 5px;
 }
 #menu li a{
-    color: #fff;
-    width: 100%;
-    height: 100%;
-    display: inline-table;
-}
-#menu li:hover{
-    color: #333;
+    width: 100px;
+    height: 50px;
     background: #333;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    display: inline-table;
+    border-radius: 5px;
 }
-@media only screen and (max-width: 767px) {
+#menu li a:hover{
+    background: #ccc;
+}
+
+@media only screen and (max-width: 1020px){
+    .container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 702px){
     #logo{
         width: 100%;
         height: 100px;
         background: red;
     }
     #logo img{
-        text-align: center;
+        margin: 25px auto;
+        display: block;
     }
+}
+
+/*轮播图*/
+
+#slider .slider-stage{
+    width: 100%;
+    height: 800px;
+    /*overflow: hidden;*/
+    box-sizing: content-box;
+}
+#slider .slider-stage img{
+    width: 100%;
+}
+
+
+/*footer*/
+
+footer{
+
+}
+
+/*icp-info*/
+
+#icp-info{
+    color: #777;
+    clear: both;
+    text-align: center;
+}
+#icp-info a{
+    color: #777;
+}
+#icp-info a:hover{
+    color: #333;
 }
