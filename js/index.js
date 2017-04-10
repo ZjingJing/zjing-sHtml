@@ -9,8 +9,8 @@ require(['jquery'],function(){
     // },function(){
     //     $subMenu.hide();
     // });
-    var $header = $("#header");
-    if(window.OffsetHeight < 0){
-        $header.style.position = 'fixed';
-    }
+    // var $header = $("#header");
+    // if(window.OffsetHeight < 0){
+    //     $header.style.position = 'fixed';
+    // }
 })
