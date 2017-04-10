@@ -83,12 +83,18 @@ header{
 
 #slider .slider-stage{
     width: 100%;
-    height: 800px;
+    height: 700px;
     /*overflow: hidden;*/
     box-sizing: content-box;
 }
+#slider .slider-stage ul{
+    width: 300%;
+}
+#slider .slider-stage li{
+    float: left;
+}
 #slider .slider-stage img{
-    width: 100%;
+    height: 700px;
 }
 
 
