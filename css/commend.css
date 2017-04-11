@@ -96,7 +96,9 @@ header{
 /*footer*/
 
 footer{
-
+    margin: 0 auto;
+    line-height: 50px;
+    padding-top: 50px;
 }
 
 /*icp-info*/
