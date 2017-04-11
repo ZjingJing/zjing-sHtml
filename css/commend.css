@@ -24,7 +24,6 @@ header{
     width: 1020px;
     height: 100%;
     margin: 0 auto;
-    /*background: #999;*/
 }
 #logo{
     float: left;
@@ -38,10 +37,6 @@ header{
     height: 100%;
     float: right;
 }
-/*#menu >  ul{*/
-    /*!*overflow: hidden;*!*/
-    /*display: block;*/
-/*}*/
 #menu li{
     float: right;
     margin-left: 20px;
